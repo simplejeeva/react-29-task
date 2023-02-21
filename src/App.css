@@ -1,0 +1,41 @@
+.cart-container {
+  width: 200px;
+  background-color: rgb(130, 125, 125);
+  border-radius: 10px;
+  color: white;
+}
+.sub-div {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  color: rgb(120, 163, 208);
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 3px;
+}
+.add-student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(19, 19, 232);
+}
+.heading {
+  color: white;
+}
+.ed-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
